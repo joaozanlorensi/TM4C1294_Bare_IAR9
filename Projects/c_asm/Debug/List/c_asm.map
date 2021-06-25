@@ -1,0 +1,241 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.2.313/W64 for ARM                  24/Jun/2021  00:28:31
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\c_asm\Debug\Exe\c_asm.out
+#    Map file     =
+#        D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\c_asm\Debug\List\c_asm.map
+#    Command line =
+#        -f
+#        D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\c_asm\Debug\Exe\c_asm.out.rsp
+#        (D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\c_asm\Debug\Obj\asm_code.o
+#        D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\c_asm\Debug\Obj\c_code.o
+#        D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\c_asm\Debug\Obj\startup_ARMCM4.o
+#        D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\c_asm\Debug\Obj\system_ARMCM4.o
+#        --no_out_extension -o
+#        D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\c_asm\Debug\Exe\c_asm.out
+#        --map
+#        D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\c_asm\Debug\List\c_asm.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\CONFIG\generic_cortex.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x7'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block PROC_STACK with size = 0, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address   Size  Object
+  -------            ----         -------   ----  ------
+"A0":                                      0x3c0
+  .intvec            ro code          0x0  0x3c0  startup_ARMCM4.o [1]
+                                  - 0x3c0  0x3c0
+
+"P1":                                      0x408
+  .text              ro code        0x3c0  0x136  xprintftiny.o [2]
+  .text              ro code        0x4f6   0x2a  copy_init3.o [3]
+  .text              ro code        0x520   0x36  strlen.o [3]
+  .text              ro code        0x556    0x2  startup_ARMCM4.o [1]
+  .text              ro code        0x558   0x7c  iarttio.o [4]
+  .text              ro code        0x5d4    0x8  XShttio.o [2]
+  .text              ro code        0x5dc   0x30  c_code.o [1]
+  .text              ro code        0x60c    0x4  asm_code.o [1]
+  .text              ro code        0x610   0x28  printf.o [2]
+  .text              ro code        0x638   0x28  data_init.o [3]
+  .text              ro code        0x660   0x22  iarwrite.o [4]
+  .iar.init_table    const          0x684   0x14  - Linker created -
+  .text              ro code        0x698   0x20  putchar.o [2]
+  .text              ro code        0x6b8   0x10  write.o [4]
+  .text              ro code        0x6c8   0x1e  dwrite.o [4]
+  .text              ro code        0x6e6   0x20  iarwstd.o [4]
+  .text              ro code        0x708   0x1e  cmain.o [3]
+  .text              ro code        0x726    0x4  low_level_init.o [2]
+  .text              ro code        0x72a    0x4  exit.o [2]
+  .text              ro code        0x730    0xa  cexit.o [3]
+  .text              ro code        0x73c   0x14  exit.o [4]
+  .text              ro code        0x750   0x1c  cstartup_M.o [3]
+  .rodata            const          0x76c   0x18  c_code.o [1]
+  .text              ro code        0x784   0x16  xprout.o [2]
+  .text              ro code        0x79c   0x10  startup_ARMCM4.o [1]
+  .text              ro code        0x7ac   0x10  system_ARMCM4.o [1]
+  Initializer bytes  const          0x7bc    0xc  <for P2-1>
+  .rodata            const          0x7c8    0x0  copy_init3.o [3]
+                                  - 0x7c8  0x408
+
+"P2", part 1 of 2:                           0xc
+  P2-1                        0x2000'0000    0xc  <Init block>
+    .data            inited   0x2000'0000    0x4  system_ARMCM4.o [1]
+    .data            inited   0x2000'0004    0x8  XShttio.o [2]
+                            - 0x2000'000c    0xc
+
+"P2", part 2 of 2:                         0x400
+  CSTACK                      0x2000'0010  0x400  <Block>
+    CSTACK           uninit   0x2000'0010  0x400  <Block tail>
+                            - 0x2000'0410  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x7c8     0x7'ffff  0x7'f838
+  0x2000'000c  0x2000'000f       0x4
+  0x2000'0410  0x2000'ffff    0xfbf0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc:
+                0x7bc   0xc
+    1 destination range, total size 0xc:
+          0x2000'0000   0xc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\c_asm\Debug\Obj: [1]
+    asm_code.o              4
+    c_code.o               48       24
+    startup_ARMCM4.o      978
+    system_ARMCM4.o        16        4        4
+    -------------------------------------------
+    Total:              1'046       28        4
+
+dl7M_tln.a: [2]
+    XShttio.o               8        8        8
+    exit.o                  4
+    low_level_init.o        4
+    printf.o               40
+    putchar.o              32
+    xprintftiny.o         310
+    xprout.o               22
+    -------------------------------------------
+    Total:                420        8        8
+
+rt7M_tl.a: [3]
+    cexit.o                10
+    cmain.o                30
+    copy_init3.o           42
+    cstartup_M.o           28
+    data_init.o            40
+    strlen.o               54
+    -------------------------------------------
+    Total:                204
+
+shb_l.a: [4]
+    dwrite.o               30
+    exit.o                 20
+    iarttio.o             124
+    iarwrite.o             34
+    iarwstd.o              32
+    write.o                16
+    -------------------------------------------
+    Total:                256
+
+    Gaps                    8        2
+    Linker created                  20    1'024
+-----------------------------------------------
+    Grand Total:        1'934       58    1'036
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base         0x684          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x698          --   Gb  - Linker created -
+?main                         0x709         Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0010          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0410          --   Gb  - Linker created -
+Region$$Table$$Base           0x684          --   Gb  - Linker created -
+Region$$Table$$Limit          0x698          --   Gb  - Linker created -
+SystemCoreClock         0x2000'0000    0x4  Data  Gb  system_ARMCM4.o [1]
+SystemInit                    0x7ad    0x8  Code  Gb  system_ARMCM4.o [1]
+_PrintfTiny                   0x3d9  0x11e  Code  Gb  xprintftiny.o [2]
+_Prout                        0x785   0x16  Code  Gb  xprout.o [2]
+__Vectors                       0x0          --   Gb  startup_ARMCM4.o [1]
+__Vectors_End                 0x3c0         Data  Gb  startup_ARMCM4.o [1]
+__Vectors_Size {Abs}          0x3c0          --   Gb  startup_ARMCM4.o [1]
+__cmain                       0x709         Code  Gb  cmain.o [3]
+__dwrite                      0x6c9   0x1e  Code  Gb  dwrite.o [4]
+__exit                        0x73d   0x14  Code  Gb  exit.o [4]
+__iar_close_ttio              0x559   0x2c  Code  Gb  iarttio.o [4]
+__iar_copy_init3              0x4f7   0x2a  Code  Gb  copy_init3.o [3]
+__iar_data_init3              0x639   0x28  Code  Gb  data_init.o [3]
+__iar_get_ttio                0x585   0x4c  Code  Gb  iarttio.o [4]
+__iar_lookup_ttioh            0x5d5    0x8  Code  Gb  XShttio.o [2]
+__iar_program_start           0x751         Code  Gb  cstartup_M.o [3]
+__iar_sh_stdout               0x6e7   0x20  Code  Gb  iarwstd.o [4]
+__iar_sh_write                0x661   0x22  Code  Gb  iarwrite.o [4]
+__iar_ttio_handles      0x2000'0004    0x8  Data  Lc  XShttio.o [2]
+__low_level_init              0x727    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0         Data  Gb  startup_ARMCM4.o [1]
+__vector_table_0x1c            0x1c         Data  Gb  startup_ARMCM4.o [1]
+__write                       0x6b9   0x10  Code  Gb  write.o [4]
+_call_main                    0x715         Code  Gb  cmain.o [3]
+_exit                         0x731         Code  Gb  cexit.o [3]
+exit                          0x72b    0x4  Code  Gb  exit.o [2]
+func_asm                      0x60d         Code  Gb  asm_code.o [1]
+main                          0x5dd   0x30  Code  Gb  c_code.o [1]
+out                           0x3c1   0x18  Code  Lc  xprintftiny.o [2]
+printf                        0x611   0x28  Code  Gb  printf.o [2]
+putchar                       0x699   0x20  Code  Gb  putchar.o [2]
+strlen                        0x521         Code  Gb  strlen.o [3]
+
+
+[1] = D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\c_asm\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  1'934 bytes of readonly  code memory
+     58 bytes of readonly  data memory
+  1'036 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

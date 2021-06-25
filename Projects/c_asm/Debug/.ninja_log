@@ -1,0 +1,6 @@
+# ninja log v5
+0	474	6462085108038772	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/c_asm/Debug/Obj/startup_ARMCM4.o	1ecf45d46edc2bed
+339	486	6462085108038772	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/c_asm/Debug/Obj/asm_code.o	e54ba2f93982daed
+492	650	6462085109674407	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/c_asm/Debug/Obj/c_code.o	3459de8d89f76e28
+480	700	6462085110234386	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/c_asm/Debug/Obj/system_ARMCM4.o	88c534ef12de659
+710	1318	6462085116280583	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/c_asm/Debug/Exe/c_asm.out	c5e96d2a170a1bb1

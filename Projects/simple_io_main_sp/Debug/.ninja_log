@@ -3,3 +3,15 @@
 1	470	6456568286654141	C:/Users/hviei/Documents/GitHub/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/startup_TM4C1294.o	ba3c9e536e789e44
 289	528	6456568287332589	C:/Users/hviei/Documents/GitHub/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	7a986b2f136557f5
 536	1552	6456568296857117	C:/Users/hviei/Documents/GitHub/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	5fd41ba15d540e66
+1	140	6462085258165289	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/startup_TM4C1294.o	c143cd75601cf83a
+7	261	6462085259205288	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/system_TM4C1294_TW.o	6782b42acd146b66
+146	301	6462085259645276	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	8f86c45838ca59c3
+312	527	6462085261963087	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	6caa9f7f257c6bf5
+4	60	6462085405584586	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/startup_TM4C1294.o	c143cd75601cf83a
+11	187	6462085406704577	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/system_TM4C1294_TW.o	6782b42acd146b66
+63	243	6462085407344575	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	8f86c45838ca59c3
+256	465	6462085409634712	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	c2ecddf16194b769
+256	465	6462085409634712	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/List/simple_io_main_sp.map	c2ecddf16194b769
+4	137	6462085436375874	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	6caa9f7f257c6bf5
+8	197	6462871391822319	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	8f86c45838ca59c3
+208	492	6462871394872865	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	6caa9f7f257c6bf5

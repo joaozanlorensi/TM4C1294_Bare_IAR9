@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\hviei\Documents\GitHub\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\settings\simple_io_main_sp.Debug.general.xcl" --backend -f "C:\Users\hviei\Documents\GitHub\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\settings\simple_io_main_sp.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\settings\simple_io_main_sp.Debug.general.xcl" --backend -f "D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\settings\simple_io_main_sp.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\hviei\Documents\GitHub\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\settings\simple_io_main_sp.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\hviei\Documents\GitHub\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\settings\simple_io_main_sp.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\settings\simple_io_main_sp.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\settings\simple_io_main_sp.Debug.driver.xcl" 
 }

@@ -1,17 +1,17 @@
-"C:\Users\hviei\Documents\GitHub\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\src\simple_io_main_sp.c"
+"D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\src\simple_io_main_sp.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\hviei\Documents\GitHub\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\Debug\BrowseInfo\simple_io_main_sp.pbi.dep
+D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\Debug\BrowseInfo\simple_io_main_sp.pbi.dep
 -o
-C:\Users\hviei\Documents\GitHub\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\Debug\BrowseInfo\simple_io_main_sp.pbi
+D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\Debug\BrowseInfo\simple_io_main_sp.pbi
 -I
-C:\Users\hviei\Documents\GitHub\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\src
+D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\src
 -I
-C:\Users\hviei\Documents\GitHub\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\..\..\TivaWare_C_Series-2.1.4.178
+D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\Projects\simple_io_main_sp\..\..\TivaWare_C_Series-2.1.4.178
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include\
 -I
@@ -23,7 +23,7 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
-C:\Users\hviei\Documents\GitHub\TM4C1294_Bare_IAR9\TivaWare_C_Series-2.1.4.178
+D:\Users\joaoz\Desktop\Repos\TM4C1294_Bare_IAR9\TivaWare_C_Series-2.1.4.178
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include
 -I
