@@ -1,0 +1,23 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLFrame</id><coordinates><x>60</x><y>81</y><w>810</w><h>420</h></coordinates><panel_attributes>state machine - fsm_matrix</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>180</x><y>181</y><w>210</w><h>270</h></coordinates><panel_attributes>Acende
+--
+do/ LEDOn()
+-.
+valign=top
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>620</x><y>181</y><w>220</w><h>270</h></coordinates><panel_attributes>Apaga
+--
+do/ LEDOff()
+-.
+valign=top
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>261</y><w>260</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+Tempo</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>331</y><w>260</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+Tempo</panel_attributes><additional_attributes>240;20;10;20</additional_attributes></element><element><id>UMLState</id><coordinates><x>250</x><y>281</y><w>110</w><h>40</h></coordinates><panel_attributes>LED1_Acende</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>250</x><y>381</y><w>110</w><h>40</h></coordinates><panel_attributes>LED2_Acende</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>690</x><y>271</y><w>110</w><h>40</h></coordinates><panel_attributes>LED1_Apaga</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>690</x><y>371</y><w>110</w><h>40</h></coordinates><panel_attributes>LED2_Apaga</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>311</y><w>60</w><h>90</h></coordinates><panel_attributes>lt=-&gt;
+Botão</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>301</y><w>60</w><h>90</h></coordinates><panel_attributes>lt=-&gt;
+Botão</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>311</y><w>60</w><h>90</h></coordinates><panel_attributes>lt=-&gt;
+Botão</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>301</y><w>60</w><h>90</h></coordinates><panel_attributes>lt=-&gt;
+Botão</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>640</x><y>240</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>240</y><w>80</w><h>70</h></coordinates><panel_attributes>lt=-&gt;
+Inicío</panel_attributes><additional_attributes>10;10;50;50</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>200</x><y>230</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>230</y><w>170</w><h>60</h></coordinates><panel_attributes>lt=-&gt;
+Prev = LED2_APAGA</panel_attributes><additional_attributes>10;20;150;20;150;40</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>220</y><w>170</w><h>80</h></coordinates><panel_attributes>lt=-&gt;
+Prev = LED2_ACENDE</panel_attributes><additional_attributes>10;20;150;20;150;60</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>230</y><w>200</w><h>200</h></coordinates><panel_attributes>lt=-&gt;
+Prev = LED1_ACENDE</panel_attributes><additional_attributes>130;10;10;10;10;180;180;180</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>240</y><w>140</w><h>170</h></coordinates><panel_attributes>lt=-&gt;
+Prev = LED1_APAGA</panel_attributes><additional_attributes>10;10;10;150;50;150</additional_attributes></element></diagram>

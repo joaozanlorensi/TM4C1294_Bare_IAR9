@@ -1,9 +1,13 @@
 # ninja log v5
 2	310	6462836910000000	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/system_TM4C1294_TW.xcl	8f498705d5d61f2b
-8	344	6462836910000000	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/driverleds.xcl	72dd8d6225c658c0
 356	649	6462836913839913	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/driverleds.pbi	683878e5f23d860c
+2	122	6474812459685069	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbw	98d3c9e2bc9b35bd
+8	344	6462836910000000	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/driverleds.xcl	72dd8d6225c658c0
 323	664	6462836910000000	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/fsm_state.xcl	805ed4f390a0be5b
-674	895	6462836916202138	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbi	80ba6d79db535e4b
+1	261	6474898243448786	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbi	80ba6d79db535e4b
 654	1046	6462836917827781	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/system_TM4C1294_TW.pbi	f7397a17468f5f1f
-1050	1117	6462836918545861	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbd	abd050dc000bf6bf
-1124	1231	0	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbw	98d3c9e2bc9b35bd
+266	328	6474898244138756	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbd	abd050dc000bf6bf
+2	166	6474812459685069	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbw	98d3c9e2bc9b35bd
+2	114	6474812459685069	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbw	98d3c9e2bc9b35bd
+1	127	6474812459685069	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbw	98d3c9e2bc9b35bd
+2	107	6474812459685069	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbw	98d3c9e2bc9b35bd

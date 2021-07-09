@@ -5,26 +5,26 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\src\simple_io_process_sp.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\simple_io_process_sp.o</file>
             <file>$PROJ_DIR$\src\system_TM4C1294_TW.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\simple_io_process_sp.o</file>
+            <file>$PROJ_DIR$\src\simple_io_process_sp.c</file>
             <file>$PROJ_DIR$\Debug\Obj\system_TM4C1294_TW.o</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\src\simple_io_process_sp.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 1</file>
-                </tool>
-            </outputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\src\system_TM4C1294_TW.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
                     <file> 3</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\simple_io_process_sp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1</file>
                 </tool>
             </outputs>
         </file>

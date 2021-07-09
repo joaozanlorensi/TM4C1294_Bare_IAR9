@@ -1,0 +1,9 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>Relation</id><coordinates><x>320</x><y>132</y><w>290</w><h>80</h></coordinates><panel_attributes>lt=-&gt;
+Evento</panel_attributes><additional_attributes>10;50;10;20;270;20;270;60</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>242</y><w>300</w><h>80</h></coordinates><panel_attributes>Evento
+lt=-&gt;
+</panel_attributes><additional_attributes>280;20;280;50;10;50;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>720</x><y>172</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>220</x><y>60</y><w>570</w><h>270</h></coordinates><panel_attributes>state machine - fsm_event</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>520</x><y>190</y><w>140</w><h>70</h></coordinates><panel_attributes>Desligado
+--
+do/ LEDOff(LED1)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>260</x><y>180</y><w>130</w><h>70</h></coordinates><panel_attributes>Ligado
+--
+do/ LEDOn(LED1)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>170</y><w>100</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>80;10;10;50</additional_attributes></element></diagram>

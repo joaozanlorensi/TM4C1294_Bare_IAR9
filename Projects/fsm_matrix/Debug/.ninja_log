@@ -1,0 +1,7 @@
+# ninja log v5
+1	150	6474901450107121	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_matrix/Debug/Obj/startup_TM4C1294.o	f7d1a11ba2c0bbc1
+9	436	6474901452802185	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_matrix/Debug/Obj/driverbuttons.o	3cbc078f1744a4c9
+156	499	6474901453504496	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_matrix/Debug/Obj/driverleds.o	29e99fa50fba8618
+447	677	6474901455302812	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_matrix/Debug/Obj/system_TM4C1294_TW.o	1173c3a300e24bf4
+510	750	6474901456056450	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_matrix/Debug/Obj/fsm_matrix.o	9d71affb2fd0c8bb
+763	962	6474901458004899	D:/Users/joaoz/Desktop/Repos/TM4C1294_Bare_IAR9/Projects/fsm_matrix/Debug/Exe/fsm_matrix.out	81e5b4b3e1f72b0f

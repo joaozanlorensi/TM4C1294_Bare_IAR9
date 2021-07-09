@@ -13,11 +13,18 @@ void SysTick_Handler(void){
   GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_1, LED_D1); // Acende ou apaga LED D1
 } // SysTick_Handler
 
-void pinSetUp(void){
+void main(void){
+  float a, b, c, d;
+  a = 10.1;
+  b = 15.5;
+  c = a * b;
+  d = 18 + b/a;
+  
   SysTickPeriodSet(12000000); // f = 1Hz para clock = 24MHz
   
   SysCtlPeripheralEnable(SYSCTL_PERIPH_GPION); // Habilita GPIO N (LED D1 = PN1, LED D2 = PN0)
   while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPION)); // Aguarda final da habilitação
+  
   
   GPIOPinTypeGPIOOutput(GPIO_PORTN_BASE, GPIO_PIN_0 | GPIO_PIN_1); // LEDs D1 e D2 como saída
   GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_0 | GPIO_PIN_1, 0); // LEDs D1 e D2 apagados
@@ -38,10 +45,6 @@ void pinSetUp(void){
 
   SysTickIntEnable();
   SysTickEnable();
-}
-
-void main(void){
-  pinSetUp();
 
   while(1){
     if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0) == GPIO_PIN_0) // Testa estado do push-button SW1
